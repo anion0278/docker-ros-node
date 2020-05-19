@@ -6,6 +6,8 @@ sudo docker build -t node_test .
 sudo docker run node_test:latest
 rostopic pub /test std_msgs/String hello_docker
 
+test
+
 #########################################
 
 # Docker Sample
